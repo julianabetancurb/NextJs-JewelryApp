@@ -1,0 +1,714 @@
+[
+  {
+    "id": "anillo-sensaciones",
+    "name": "Anillo Sensaciones",
+    "descripcion": "Elaborado con aluminio laminado. Seis meses de garantía graduable.",
+    "price": 14000,
+    "image": "/images/anillo_sensaciones.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-corazon",
+    "name": "Anillo de Corazón",
+    "descripcion": "Elaborado con aluminio laminado y esmalte galvanizado. Seis meses de garantía graduable.",
+    "price": 16000,
+    "image": "/images/anillo-corazon.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-sol-y-luna",
+    "name": "Anillo Sol y Luna",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
+    "price": 18000,
+    "image": "/images/anillo-sol-y-luna.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-de-flor",
+    "name": "Anillo de Flor",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
+    "price": 18000,
+    "image": "/images/anillo-de-flor.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-genostico",
+    "name": "Anillo Genostico",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
+    "price": 18000,
+    "image": "/images/anillo-genostico.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-vital",
+    "name": "Anillo Vital",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
+    "price": 18000,
+    "image": "/images/anillo-vital.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-multi-aro",
+    "name": "Anillo Multi Aro",
+    "descripcion": "Elaborado con acero inoxidable y goldfield. Seis meses de garantía graduable.",
+    "price": 15000,
+    "image": "/images/anillo-multi-aro.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-de-serpiente",
+    "name": "Anillo de Serpiente",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
+    "price": 18000,
+    "image": "/images/anillo-de-serpiente.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillos-leviatan",
+    "name": "Anillos Leviatan",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
+    "price": 18000,
+    "image": "/images/anillos-leviatan.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-floral",
+    "name": "Anillo Floral",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
+    "price": 18000,
+    "image": "/images/anillo-floral.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-jardin",
+    "name": "Anillo Jardín",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
+    "price": 18000,
+    "image": "/images/anillo-jardin.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillos-tejidos",
+    "name": "Anillos Tejidos Para Compartir",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
+    "price": 14000,
+    "image": "/images/anillos-tejidos.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "brazalete-de-la-amistad",
+    "name": "Brazalete de la Amistad",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Tres meses de garantía.",
+    "price": 15000,
+    "image": "/images/brazalete-de-la-amistad.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-de-incrustaciones",
+    "name": "Brazalete de Incrustaciones",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Tres meses de garantía.",
+    "price": 20000,
+    "image": "/images/brazalete-de-incrustaciones.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-de-pareja",
+    "name": "Brazalete de Pareja",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Tres meses de garantía.",
+    "price": 18000,
+    "image": "/images/brazalete-de-pareja.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-lunar-1",
+    "name": "Brazalete Lunar",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Tres meses de garantía.",
+    "price": 20000,
+    "image": "/images/brazalete-lunar-1.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-de-estrellas-1",
+    "name": "Brazalete de Estrellas",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Tres meses de garantía.",
+    "price": 18000,
+    "image": "/images/brazalete-de-estrellas-1.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-de-corazones-1",
+    "name": "Brazalete de Corazones",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Tres meses de garantía.",
+    "price": 18000,
+    "image": "/images/brazalete-de-corazones-1.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-madre-querida",
+    "name": "Brazalete Madre Querida",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
+    "price": 22000,
+    "image": "/images/brazalete-madre-querida.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-de-estrellas-2",
+    "name": "Brazalete de Estrellas",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
+    "price": 24000,
+    "image": "/images/brazalete-de-estrellas-2.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-de-corazones-2",
+    "name": "Brazalete de Corazones",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
+    "price": 20000,
+    "image": "/images/brazalete-de-corazones-2.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-lunar-2",
+    "name": "Brazalete Lunar",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
+    "price": 22000,
+    "image": "/images/brazalete-lunar-2.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-de-estrellas-3",
+    "name": "Brazalete de Estrellas",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
+    "price": 22000,
+    "image": "/images/brazalete-de-estrellas-3.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-de-corazones-3",
+    "name": "Brazalete de Corazones",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
+    "price": 24000,
+    "image": "/images/brazalete-de-corazones-3.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-espiral",
+    "name": "brazalete espiral",
+    "descripcion": "Elaborado con acero inoxidable y goldfield, bañadas en una fina capa de rodio. Cinco meses de garantía.",
+    "price": 20000,
+    "image": "/images/brazalete-espiral.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "brazalete-perlas",
+    "name": "Brazalete de perlas",
+    "descripcion": "Elaborado con acero inoxidable y goldfield, bañadas en una fina capa de rodio. Cinco meses de garantía.",
+    "price": 18000,
+    "image": "/images/brazalete-perlas.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "pack-agua",
+    "name": "Pack Agua",
+    "descripcion": "Elaborado con acero inoxidable y goldfield, laminado en rodio. Cinco meses de garantía.",
+    "price": 25000,
+    "image": "/images/pack-agua.png",
+    "categoria": "packs"
+  },
+  {
+    "id": "pack-marea",
+    "name": "Pack Marea",
+    "descripcion": "Elaborado con acero inoxidable y goldfield, laminado en rodio. Cinco meses de garantía.",
+    "price": 25000,
+    "image": "/images/pack-marea.png",
+    "categoria": "packs"
+  },
+  {
+    "id": "pack-mariposa-roja",
+    "name": "Pack Mariposa Roja",
+    "descripcion": "Elaborado con acero inoxidable y goldfield, laminado en rodio. Cinco meses de garantía.",
+    "price": 26000,
+    "image": "/images/pack-mariposa-roja.png",
+    "categoria": "packs"
+  },
+  {
+    "id": "pack-mariposa-verde",
+    "name": "Pack Mariposa Verde",
+    "descripcion": "Elaborado con acero inoxidable y goldfield, laminado en rodio. Cinco meses de garantía.",
+    "price": 26000,
+    "image": "/images/pack-mariposa-verde.png",
+    "categoria": "packs"
+  },
+  {
+    "id": "corazones",
+    "name": "Brazaletes Corazones",
+    "descripcion": "Elaborado con acero inoxidable y goldfield, laminado en rodio. Cinco meses de garantía.",
+    "price": 18000,
+    "image": "/images/corazones.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "infinitos",
+    "name": "Brazaletes infinitos",
+    "descripcion": "Elaborado con acero inoxidable y goldfield, laminado en rodio. Cinco meses de garantía.",
+    "price": 18000,
+    "image": "/images/infinitos.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "cadena-solar",
+    "name": "Cadena Solar",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
+    "price": 22000,
+    "image": "/images/cadena-solar.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "cadena-poker",
+    "name": "Cadena Poker",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
+    "price": 22000,
+    "image": "/images/cadena-poker.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "cadena-tentacion",
+    "name": "Cadena Tentación",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
+    "price": 22000,
+    "image": "/images/cadena-tentacion.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "cadena-de-corazones",
+    "name": "Cadena de Corazones",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
+    "price": 25000,
+    "image": "/images/cadena-de-corazones.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "cadena-corazonada",
+    "name": "Cadena Corazonada",
+    "descripcion": "Elaborado con acero inoxidable, bañado en rodio. Cinco meses de garantía.",
+    "price": 24000,
+    "image": "/images/cadena-corazonada.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "cadena-de-caballito",
+    "name": "Cadena de Caballito",
+    "descripcion": "Elaborado con acero inoxidable, bañado en rodio. Cinco meses de garantía.",
+    "price": 24000,
+    "image": "/images/cadena-de-caballito.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "cadena-pasional",
+    "name": "Cadena Pasional",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo, bañado en rodio. Cinco meses de garantía.",
+    "price": 20000,
+    "image": "/images/cadena-pasional.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "cadena-plateada",
+    "name": "Cadena Plateada",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo, bañado en rodio. Cinco meses de garantía.",
+    "price": 22000,
+    "image": "/images/cadena-plateada.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "cadena-de-mar",
+    "name": "Cadena de Mar",
+    "descripcion": "Elaborado con acero inoxidable, cuarzo, bañado en rodio. Cinco meses de garantía.",
+    "price": 22000,
+    "image": "/images/cadena-de-mar.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "cadena-de-llave",
+    "name": "Cadena de Llave",
+    "descripcion": "Elaborado con cuarzo y goldfield, bañado en rodio. Siete meses de garantía.",
+    "price": 25000,
+    "image": "/images/cadena-de-llave.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "cadena-de-viaje",
+    "name": "Cadena de Viaje",
+    "descripcion": "Elaborado con cuarzo y goldfield, bañado en rodio. Siete meses de garantía.",
+    "price": 25000,
+    "image": "/images/cadena-de-viaje.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "camandula-tesoros",
+    "name": "Camándula Tesoros",
+    "descripcion": "Elaborado con cuarzo y goldfield, bañado en rodio. Siete meses de garantía.",
+    "price": 25000,
+    "image": "/images/camandula-tesoros.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "paquete-constelacion",
+    "name": "Paquete Constelación",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 27000,
+    "image": "/images/paquete-constelacion.png",
+    "categoria": "paquetes"
+  },
+  {
+    "id": "paquete-coral",
+    "name": "Paquete Coral",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 27000,
+    "image": "/images/paquete-coral.png",
+    "categoria": "paquetes"
+  },
+  {
+    "id": "paquete-pasion",
+    "name": "Paquete Pasión",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 27000,
+    "image": "/images/paquete-pasion.png",
+    "categoria": "paquetes"
+  },
+  {
+    "id": "paquete-angular",
+    "name": "Paquete Angular",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 27000,
+    "image": "/images/paquete-angular.png",
+    "categoria": "paquetes"
+  },
+  {
+    "id": "seleccion-romance",
+    "name": "Selección Romance",
+    "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 30000,
+    "image": "/images/seleccion-romance.png",
+    "categoria": "selecciones"
+  },
+  {
+    "id": "seleccion-pureza",
+    "name": "Selección Pureza",
+    "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 30000,
+    "image": "/images/seleccion-pureza.png",
+    "categoria": "selecciones"
+  },
+  {
+    "id": "seleccion-frutos",
+    "name": "Selección Frutos",
+    "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 30000,
+    "image": "/images/seleccion-frutos.png",
+    "categoria": "selecciones"
+  },
+  {
+    "id": "seleccion-platonico",
+    "name": "Selección Platónico",
+    "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 30000,
+    "image": "/images/seleccion-platonico.png",
+    "categoria": "selecciones"
+  },
+  {
+    "id": "seleccion-teddys",
+    "name": "Selección Teddys",
+    "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 30000,
+    "image": "/images/seleccion-teddys.png",
+    "categoria": "selecciones"
+  },
+  {
+    "id": "seleccion-guadalupe",
+    "name": "Selección Guadalupe",
+    "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 30000,
+    "image": "/images/seleccion-guadalupe.png",
+    "categoria": "selecciones"
+  },
+  {
+    "id": "seleccion-lazos-plateados",
+    "name": "Selección Lazos Plateados",
+    "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 30000,
+    "image": "/images/seleccion-lazos-plateados.png",
+    "categoria": "selecciones"
+  },
+  {
+    "id": "seleccion-lazos-dorados",
+    "name": "Selección Lazos Dorados",
+    "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 30000,
+    "image": "/images/seleccion-lazos-dorados.png",
+    "categoria": "selecciones"
+  },
+  {
+    "id": "seleccion-risos-de-oro",
+    "name": "Selección Risos de Oro",
+    "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
+    "price": 30000,
+    "image": "/images/seleccion-risos-de-oro.png",
+    "categoria": "selecciones"
+  },
+  {
+    "id": "aretes-esfera",
+    "name": "Aretes de Esfera",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-esfera.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-corona",
+    "name": "Aretes de Corona",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-corona.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-osito",
+    "name": "Aretes de Osito",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-osito.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-incrustaciones",
+    "name": "Aretes de Incrustaciones",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-incrustaciones.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-pina",
+    "name": "Aretes de Piña",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-pina.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-mono",
+    "name": "Aretes de Moño",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-mono.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-de-corazon",
+    "name": "Aretes de Corazón",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-de-corazon.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "candongas-de-aro",
+    "name": "Candongas de Aro",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/candongas-de-aro.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-de-mariquita",
+    "name": "Aretes de Mariquita",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-de-mariquita.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-de-delfin",
+    "name": "Aretes de Delfín",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-de-delfin.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "candongas-de-puntos",
+    "name": "Candongas de Puntos",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/candongas-de-puntos.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-de-angel",
+    "name": "Aretes de Ángel",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-de-angel.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-de-ramo",
+    "name": "Aretes de Ramo",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-de-ramo.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "candongas-de-patron",
+    "name": "Candongas de Patrón",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/candongas-de-patron.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "candongas-plateadas",
+    "name": "Candongas Plateadas",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/candongas-plateadas.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-corazon-llano",
+    "name": "Aretes de Corazón Llano",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-corazon-llano.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "candongas-de-flor",
+    "name": "Candongas de Flor",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/candongas-de-flor.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-de-estrella",
+    "name": "Aretes de Estrella",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-de-estrella.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-de-mariposa",
+    "name": "Aretes de Mariposa",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-de-mariposa.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "aretes-de-mono-fino",
+    "name": "Aretes de Moño Fino",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 12000,
+    "image": "/images/aretes-de-mono-fino.png",
+    "categoria": "aretes"
+  },
+  {
+    "id": "coleccion-osos-y-picas",
+    "name": "Colección Osos y Picas",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 20000,
+    "image": "/images/coleccion-osos-y-picas.png",
+    "categoria": "colecciones"
+  },
+  {
+    "id": "coleccion-aros",
+    "name": "Colección Aros",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 20000,
+    "image": "/images/coleccion-aros.png",
+    "categoria": "colecciones"
+  },
+  {
+    "id": "coleccion-mas-por-menos",
+    "name": "Colección Más por Menos",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 22000,
+    "image": "/images/coleccion-mas-por-menos.png",
+    "categoria": "colecciones"
+  },
+  {
+    "id": "coleccion-lenceria",
+    "name": "Colección Lencería",
+    "descripcion": "Elaborado con Goldfield y cuarzo. Seis meses de garantía.",
+    "price": 24000,
+    "image": "/images/coleccion-lenceria.png",
+    "categoria": "colecciones"
+  },
+  {
+    "id": "cadena-hombre-plateada",
+    "name": "Cadena de Hombre Plateada",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 22000,
+    "image": "/images/cadena-hombre-plateada.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "cadena-hombre-dorada",
+    "name": "Cadena de Hombre Dorada",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 22000,
+    "image": "/images/cadena-hombre-dorada.png",
+    "categoria": "cadenas"
+  },
+  {
+    "id": "brazalete-solo-verde",
+    "name": "Brazalete Solo Verde",
+    "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
+    "price": 18000,
+    "image": "/images/brazalete-solo-verde.png",
+    "categoria": "brazaletes"
+  },
+  {
+    "id": "anillos-gemelos",
+    "name": "Anillos Gemelos",
+    "descripcion": "Elaborado con aluminio laminado. Seis meses de garantía graduable.",
+    "price": 12000,
+    "image": "/images/anillos-gemelos.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-canal",
+    "name": "Anillo Canal",
+    "descripcion": "Elaborado con aluminio laminado. Seis meses de garantía graduable.",
+    "price": 15000,
+    "image": "/images/anillo-canal.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-viacrucis",
+    "name": "Anillo Viacrucis",
+    "descripcion": "Elaborado con aluminio laminado. Seis meses de garantía graduable.",
+    "price": 15000,
+    "image": "/images/anillo-viacrucis.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-infinito",
+    "name": "Anillo Infinito",
+    "descripcion": "Elaborado con aluminio laminado. Seis meses de garantía graduable.",
+    "price": 15000,
+    "image": "/images/anillo-infinito.png",
+    "categoria": "anillos"
+  },
+  {
+    "id": "anillo-gravado",
+    "name": "Anillo Gravado",
+    "descripcion": "Elaborado con aluminio laminado. Seis meses de garantía graduable.",
+    "price": 15000,
+    "image": "/images/anillo-gravado.png",
+    "categoria": "anillos"
+  }
+]
