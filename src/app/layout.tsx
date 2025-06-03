@@ -8,16 +8,28 @@ import { Instagram, MessageCircle, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import rawProducts from "@/data/products.json";
 
+// 1) Definimos la interfaz Product
+interface Product {
+  id: string;
+  name: string;
+  descripcion: string;
+  price: number | null;
+  image: string;
+  categoria: string;
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const [showCategories, setShowCategories] = useState(false);
   const [showContactLink, setShowContactLink] = useState(false);
+
   const whatsappLink =
     "https://api.whatsapp.com/send?phone=573332904492&text=Conectate%20TalusTops%20%C2%BFEn%20que%20podemos%20asesorarte%3F%F0%9F%92%AC%F0%9F%AB%82";
 
-  // Extraemos categorías únicas del JSON
-  const categories = Array.from(
-    new Set((rawProducts as any[]).map((p) => p.categoria))
-  );
+  // 2) Casteamos rawProducts a Product[]
+  const productsList = rawProducts as Product[];
+
+  // 3) Extraemos categorías únicas sin ningún “any”
+  const categories = Array.from(new Set(productsList.map((p) => p.categoria)));
 
   return (
     <html lang="es">
@@ -27,7 +39,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen bg-white text-gray-900">
         {/* ========== HEADER ========== */}
         <header className="bg-black text-white">
-          {/* Top bar: íconos sociales / logo / ubicación */}
           <div className="container mx-auto px-4 py-6 flex justify-between items-center">
             <div className="flex items-center space-x-3">
               <span className="text-sm">Síguenos:</span>
@@ -38,11 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               >
                 <Instagram className="w-5 h-5 hover:text-[#E6D7B6] transition-colors" />
               </a>
-              <a
-                href={whatsappLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-5 h-5 hover:text-[#E6D7B6] transition-colors" />
               </a>
             </div>
@@ -81,8 +88,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     Categorías
                     <ChevronDown className="w-4 h-4 ml-1" />
                   </button>
-
-                  {/* Desplegable de Categorías (anchura automática) */}
                   {showCategories && (
                     <ul
                       className="absolute left-0 mt-2 bg-black border border-gray-700 rounded shadow-lg z-20 w-auto min-w-[160px]"
@@ -115,8 +120,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     Contacto
                     <ChevronDown className="w-4 h-4 ml-1" />
                   </button>
-
-                  {/* Desplegable de Contacto (anchura automática) */}
                   {showContactLink && (
                     <ul
                       className="absolute right-0 mt-2 bg-black border border-gray-700 rounded shadow-lg z-20 w-auto"
