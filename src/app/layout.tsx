@@ -41,7 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="bg-black text-white">
           <div className="container mx-auto px-4 py-6 flex justify-between items-center">
             <div className="flex items-center space-x-3">
-              <span className="text-sm">Síguenos:</span>
+              <span className="text-sm">Escríbenos:</span>
               <a
                 href="https://www.instagram.com/talustops/"
                 target="_blank"
@@ -76,7 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   </Link>
                 </li>
 
-                {/* Botón para desplegar “Categorías” */}
+                {/* Categorías */}
                 <li className="relative">
                   <button
                     onClick={() => {
@@ -108,7 +108,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   )}
                 </li>
 
-                {/* Botón para desplegar “Contacto” */}
+                {/* Contacto: ahora con texto estático */}
                 <li className="relative">
                   <button
                     onClick={() => {
@@ -121,22 +121,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <ChevronDown className="w-4 h-4 ml-1" />
                   </button>
                   {showContactLink && (
-                    <ul
-                      className="absolute right-0 mt-2 bg-black border border-gray-700 rounded shadow-lg z-20 w-auto"
+                    <div
+                      className="absolute right-0 mt-2 bg-black border border-gray-700 rounded shadow-lg z-20 w-64 p-4"
                       onMouseLeave={() => setShowContactLink(false)}
                     >
-                      <li className="px-4 py-2">
-                        <a
-                          href={whatsappLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-block bg-[#E6D7B6] text-black font-medium text-center py-2 px-4 rounded hover:bg-[#cebfa6] transition-colors"
-                          onClick={() => setShowContactLink(false)}
-                        >
-                          Escríbenos
-                        </a>
-                      </li>
-                    </ul>
+                      <div className="text-gray-200 space-y-2">
+                        <p className="text-sm">
+                          <span className="font-medium">Correo:</span>{" "}
+                          servicetalus@gmail.com
+                        </p>
+                        <p className="text-sm">
+                          <span className="font-medium">Teléfono:</span>{" "}
+                          +57&nbsp;333&nbsp;2904492
+                        </p>
+                      </div>
+                    </div>
                   )}
                 </li>
               </ul>

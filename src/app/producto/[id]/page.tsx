@@ -17,7 +17,7 @@ interface Product {
 }
 
 export default function ProductDetailPage() {
-  // 1) Obtenemos el “id” de la URL usando el hook de cliente
+
   const params = useParams();
   const id = params?.id as string;
 
