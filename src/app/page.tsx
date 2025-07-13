@@ -15,6 +15,7 @@ interface Product {
   price: number | null;
   image: string;
   categoria: string;
+  genero: "mujer" | "hombre";
 }
 
 const products = rawProducts as Product[];
@@ -22,40 +23,39 @@ const products = rawProducts as Product[];
 export default function HomePage() {
   const searchParams = useSearchParams();
   const categoriaParam = searchParams.get("categoria") || "";
+  const generoParam = searchParams.get("genero") || "";
 
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 8;
 
-  // Filtrar por categoría si existe
-  const filtered = categoriaParam
-    ? products.filter((p) => p.categoria === categoriaParam)
-    : products;
+  const filtered = products
+    .filter((p) => (categoriaParam ? p.categoria === categoriaParam : true))
+    .filter((p) => (generoParam ? p.genero === generoParam : true));
 
   const totalPages = Math.ceil(filtered.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const currentProducts = filtered.slice(startIndex, startIndex + itemsPerPage);
 
-  // Si cambia la categoría, volvemos a la página 1
   useEffect(() => {
     setCurrentPage(1);
-  }, [categoriaParam]);
+  }, [categoriaParam, generoParam]);
 
   return (
     <main className="py-12 bg-gray-50">
       <div className="container mx-auto px-4">
-        {/* Título y subtítulo */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-light text-gray-900 mb-2">
-            Nuestra Colección
-          </h1>
+          <h1 className="text-4xl font-light text-gray-900 mb-2">Nuestra Colección</h1>
           <p className="text-gray-700 text-lg">
-            {categoriaParam
+            {categoriaParam && generoParam
+              ? `Mostrando categoría: ${categoriaParam}, género: ${generoParam}`
+              : categoriaParam
               ? `Mostrando categoría: ${categoriaParam}`
+              : generoParam
+              ? `Mostrando género: ${generoParam}`
               : "Explora nuestras piezas exclusivas."}
           </p>
         </div>
 
-        {/* Grid de productos */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {currentProducts.map((item) => (
             <Card
@@ -86,59 +86,42 @@ export default function HomePage() {
           ))}
         </div>
 
-        {/* ------------------------------------------------ */}
-        {/* Paginación: ahora mostramos TODOS los números de página */}
-        {/* ------------------------------------------------ */}
         <nav aria-label="Paginación" className="mt-8">
           <div className="flex items-center justify-center space-x-2 mb-2">
-            {/* Botón “Anterior” */}
             <button
-              onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+              onClick={() => setCurrentPage((p) => Math.max(p - 1, 1))}
               disabled={currentPage === 1}
-              className={`
-                px-3 py-1 rounded-md text-sm font-medium
-                ${
-                  currentPage === 1
-                    ? "bg-gray-200 text-gray-500 cursor-not-allowed"
-                    : "bg-white text-gray-700 hover:bg-gray-100"
-                }
-              `}
+              className={`px-3 py-1 rounded-md text-sm font-medium ${
+                currentPage === 1
+                  ? "bg-gray-200 text-gray-500 cursor-not-allowed"
+                  : "bg-white text-gray-700 hover:bg-gray-100"
+              }`}
             >
               Anterior
             </button>
-
-            {/* Botón “Siguiente” */}
             <button
-              onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+              onClick={() => setCurrentPage((p) => Math.min(p + 1, totalPages))}
               disabled={currentPage === totalPages}
-              className={`
-                px-3 py-1 rounded-md text-sm font-medium
-                ${
-                  currentPage === totalPages
-                    ? "bg-gray-200 text-gray-500 cursor-not-allowed"
-                    : "bg-white text-gray-700 hover:bg-gray-100"
-                }
-              `}
+              className={`px-3 py-1 rounded-md text-sm font-medium ${
+                currentPage === totalPages
+                  ? "bg-gray-200 text-gray-500 cursor-not-allowed"
+                  : "bg-white text-gray-700 hover:bg-gray-100"
+              }`}
             >
               Siguiente
             </button>
           </div>
-
-          {/* Contenedor con overflow horizontal para números de página */}
           <div className="overflow-x-auto">
             <ul className="inline-flex space-x-2 pb-1 px-2">
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
                 <li key={page}>
                   <button
                     onClick={() => setCurrentPage(page)}
-                    className={`
-                      px-3 py-1 rounded-md text-sm font-medium
-                      ${
-                        page === currentPage
-                          ? "bg-[#E6D7B6] text-black"
-                          : "bg-white text-gray-700 hover:bg-gray-100"
-                      }
-                    `}
+                    className={`px-3 py-1 rounded-md text-sm font-medium ${
+                      page === currentPage
+                        ? "bg-[#E6D7B6] text-black"
+                        : "bg-white text-gray-700 hover:bg-gray-100"
+                    }`}
                   >
                     {page}
                   </button>

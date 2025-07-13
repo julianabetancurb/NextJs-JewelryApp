@@ -1,4 +1,3 @@
-// src/app/producto/[id]/page.tsx
 "use client";
 
 import { useParams } from "next/navigation";
@@ -20,14 +19,9 @@ export default function ProductDetailPage() {
 
   const params = useParams();
   const id = params?.id as string;
-
-  // 2) Casteamos el JSON a Product[]
   const products = rawProducts as Product[];
-
-  // 3) Buscamos el producto cuyo id coincida
   const product = products.find((p) => p.id === id);
 
-  // 4) Si no existe, mostramos un mensaje
   if (!product) {
     return (
       <main className="py-12 bg-gray-50">
@@ -44,17 +38,12 @@ export default function ProductDetailPage() {
     );
   }
 
-  // 5) Si existe, renderizamos el detalle
   return (
     <main className="py-12 bg-gray-50">
       <div className="container mx-auto px-4">
-        {/* Botón “Volver al catálogo” */}
        
-
-        {/* Tarjeta con detalle de producto */}
         <Card className="bg-white border border-gray-200 shadow-md">
           <CardContent className="flex flex-col md:flex-row">
-            {/* Imagen del producto */}
             <div className="md:w-1/2">
               <Image
                 src={product.image}
@@ -65,7 +54,6 @@ export default function ProductDetailPage() {
               />
             </div>
 
-            {/* Información textual */}
             <div className="md:w-1/2 p-6">
               <h1 className="text-3xl font-semibold text-gray-900 mb-4">
                 {product.name}
@@ -73,19 +61,15 @@ export default function ProductDetailPage() {
               <p className="text-gray-700 text-lg mb-4">
                 {product.descripcion}
               </p>
-
-              {/* Mostramos la categoría */}
               <p className="mb-4">
                 <span className="font-medium">Categoría: </span>
                 <span className="text-gray-800">{product.categoria}</span>
               </p>
 
-              {/* Precio */}
               <span className="block text-2xl font-bold text-black mb-6">
                 {product.price !== null ? `$${product.price}` : "—"}
               </span>
 
-              {/* Botón “Cotizar por WhatsApp” */}
               <a
                 href="https://api.whatsapp.com/send?phone=573332904492&text=Hola%2C%20quiero%20cotizar%20el%20producto%20de%20nombre%3A%20"
                 target="_blank"

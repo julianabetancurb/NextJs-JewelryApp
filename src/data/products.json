@@ -5,7 +5,8 @@
     "descripcion": "Elaborado con aluminio laminado. Seis meses de garantía graduable.",
     "price": 14000,
     "image": "/images/anillo_sensaciones.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "mujer"
   },
   {
     "id": "anillo-corazon",
@@ -13,7 +14,8 @@
     "descripcion": "Elaborado con aluminio laminado y esmalte galvanizado. Seis meses de garantía graduable.",
     "price": 16000,
     "image": "/images/anillo-corazon.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "mujer"
   },
   {
     "id": "anillo-sol-y-luna",
@@ -21,7 +23,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
     "price": 18000,
     "image": "/images/anillo-sol-y-luna.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "mujer"
   },
   {
     "id": "anillo-de-flor",
@@ -29,7 +32,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
     "price": 18000,
     "image": "/images/anillo-de-flor.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "mujer"
   },
   {
     "id": "anillo-genostico",
@@ -37,7 +41,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
     "price": 18000,
     "image": "/images/anillo-genostico.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "mujer"
   },
   {
     "id": "anillo-vital",
@@ -45,7 +50,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
     "price": 18000,
     "image": "/images/anillo-vital.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "mujer"
   },
   {
     "id": "anillo-multi-aro",
@@ -53,7 +59,8 @@
     "descripcion": "Elaborado con acero inoxidable y goldfield. Seis meses de garantía graduable.",
     "price": 15000,
     "image": "/images/anillo-multi-aro.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "mujer"
   },
   {
     "id": "anillo-de-serpiente",
@@ -61,7 +68,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
     "price": 18000,
     "image": "/images/anillo-de-serpiente.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "mujer"
   },
   {
     "id": "anillos-leviatan",
@@ -69,7 +77,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
     "price": 18000,
     "image": "/images/anillos-leviatan.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "mujer"
   },
   {
     "id": "anillo-floral",
@@ -77,7 +86,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
     "price": 18000,
     "image": "/images/anillo-floral.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "mujer"
   },
   {
     "id": "anillo-jardin",
@@ -85,7 +95,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
     "price": 18000,
     "image": "/images/anillo-jardin.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "mujer"
   },
   {
     "id": "anillos-tejidos",
@@ -93,7 +104,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía graduable.",
     "price": 14000,
     "image": "/images/anillos-tejidos.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-de-la-amistad",
@@ -101,7 +113,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Tres meses de garantía.",
     "price": 15000,
     "image": "/images/brazalete-de-la-amistad.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-de-incrustaciones",
@@ -109,7 +122,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Tres meses de garantía.",
     "price": 20000,
     "image": "/images/brazalete-de-incrustaciones.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-de-pareja",
@@ -117,7 +131,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Tres meses de garantía.",
     "price": 18000,
     "image": "/images/brazalete-de-pareja.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-lunar-1",
@@ -125,7 +140,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Tres meses de garantía.",
     "price": 20000,
     "image": "/images/brazalete-lunar-1.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-de-estrellas-1",
@@ -133,7 +149,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Tres meses de garantía.",
     "price": 18000,
     "image": "/images/brazalete-de-estrellas-1.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-de-corazones-1",
@@ -141,7 +158,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Tres meses de garantía.",
     "price": 18000,
     "image": "/images/brazalete-de-corazones-1.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-madre-querida",
@@ -149,7 +167,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
     "price": 22000,
     "image": "/images/brazalete-madre-querida.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-de-estrellas-2",
@@ -157,7 +176,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
     "price": 24000,
     "image": "/images/brazalete-de-estrellas-2.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-de-corazones-2",
@@ -165,7 +185,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
     "price": 20000,
     "image": "/images/brazalete-de-corazones-2.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-lunar-2",
@@ -173,7 +194,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
     "price": 22000,
     "image": "/images/brazalete-lunar-2.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-de-estrellas-3",
@@ -181,7 +203,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
     "price": 22000,
     "image": "/images/brazalete-de-estrellas-3.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-de-corazones-3",
@@ -189,7 +212,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
     "price": 24000,
     "image": "/images/brazalete-de-corazones-3.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-espiral",
@@ -197,7 +221,8 @@
     "descripcion": "Elaborado con acero inoxidable y goldfield, bañadas en una fina capa de rodio. Cinco meses de garantía.",
     "price": 20000,
     "image": "/images/brazalete-espiral.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "brazalete-perlas",
@@ -205,7 +230,8 @@
     "descripcion": "Elaborado con acero inoxidable y goldfield, bañadas en una fina capa de rodio. Cinco meses de garantía.",
     "price": 18000,
     "image": "/images/brazalete-perlas.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "pack-agua",
@@ -213,7 +239,8 @@
     "descripcion": "Elaborado con acero inoxidable y goldfield, laminado en rodio. Cinco meses de garantía.",
     "price": 25000,
     "image": "/images/pack-agua.png",
-    "categoria": "packs"
+    "categoria": "packs",
+    "genero": "mujer"
   },
   {
     "id": "pack-marea",
@@ -221,7 +248,8 @@
     "descripcion": "Elaborado con acero inoxidable y goldfield, laminado en rodio. Cinco meses de garantía.",
     "price": 25000,
     "image": "/images/pack-marea.png",
-    "categoria": "packs"
+    "categoria": "packs",
+    "genero": "mujer"
   },
   {
     "id": "pack-mariposa-roja",
@@ -229,7 +257,8 @@
     "descripcion": "Elaborado con acero inoxidable y goldfield, laminado en rodio. Cinco meses de garantía.",
     "price": 26000,
     "image": "/images/pack-mariposa-roja.png",
-    "categoria": "packs"
+    "categoria": "packs",
+    "genero": "mujer"
   },
   {
     "id": "pack-mariposa-verde",
@@ -237,7 +266,8 @@
     "descripcion": "Elaborado con acero inoxidable y goldfield, laminado en rodio. Cinco meses de garantía.",
     "price": 26000,
     "image": "/images/pack-mariposa-verde.png",
-    "categoria": "packs"
+    "categoria": "packs",
+    "genero": "mujer"
   },
   {
     "id": "corazones",
@@ -245,7 +275,8 @@
     "descripcion": "Elaborado con acero inoxidable y goldfield, laminado en rodio. Cinco meses de garantía.",
     "price": 18000,
     "image": "/images/corazones.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "infinitos",
@@ -253,7 +284,8 @@
     "descripcion": "Elaborado con acero inoxidable y goldfield, laminado en rodio. Cinco meses de garantía.",
     "price": 18000,
     "image": "/images/infinitos.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "mujer"
   },
   {
     "id": "cadena-solar",
@@ -261,7 +293,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
     "price": 22000,
     "image": "/images/cadena-solar.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "mujer"
   },
   {
     "id": "cadena-poker",
@@ -269,7 +302,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
     "price": 22000,
     "image": "/images/cadena-poker.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "mujer"
   },
   {
     "id": "cadena-tentacion",
@@ -277,7 +311,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
     "price": 22000,
     "image": "/images/cadena-tentacion.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "mujer"
   },
   {
     "id": "cadena-de-corazones",
@@ -285,7 +320,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo y goldfield. Cinco meses de garantía.",
     "price": 25000,
     "image": "/images/cadena-de-corazones.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "mujer"
   },
   {
     "id": "cadena-corazonada",
@@ -293,7 +329,8 @@
     "descripcion": "Elaborado con acero inoxidable, bañado en rodio. Cinco meses de garantía.",
     "price": 24000,
     "image": "/images/cadena-corazonada.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "mujer"
   },
   {
     "id": "cadena-de-caballito",
@@ -301,7 +338,8 @@
     "descripcion": "Elaborado con acero inoxidable, bañado en rodio. Cinco meses de garantía.",
     "price": 24000,
     "image": "/images/cadena-de-caballito.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "mujer"
   },
   {
     "id": "cadena-pasional",
@@ -309,7 +347,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo, bañado en rodio. Cinco meses de garantía.",
     "price": 20000,
     "image": "/images/cadena-pasional.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "mujer"
   },
   {
     "id": "cadena-plateada",
@@ -317,7 +356,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo, bañado en rodio. Cinco meses de garantía.",
     "price": 22000,
     "image": "/images/cadena-plateada.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "mujer"
   },
   {
     "id": "cadena-de-mar",
@@ -325,7 +365,8 @@
     "descripcion": "Elaborado con acero inoxidable, cuarzo, bañado en rodio. Cinco meses de garantía.",
     "price": 22000,
     "image": "/images/cadena-de-mar.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "mujer"
   },
   {
     "id": "cadena-de-llave",
@@ -333,7 +374,8 @@
     "descripcion": "Elaborado con cuarzo y goldfield, bañado en rodio. Siete meses de garantía.",
     "price": 25000,
     "image": "/images/cadena-de-llave.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "mujer"
   },
   {
     "id": "cadena-de-viaje",
@@ -341,7 +383,8 @@
     "descripcion": "Elaborado con cuarzo y goldfield, bañado en rodio. Siete meses de garantía.",
     "price": 25000,
     "image": "/images/cadena-de-viaje.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "mujer"
   },
   {
     "id": "camandula-tesoros",
@@ -349,7 +392,8 @@
     "descripcion": "Elaborado con cuarzo y goldfield, bañado en rodio. Siete meses de garantía.",
     "price": 25000,
     "image": "/images/camandula-tesoros.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "mujer"
   },
   {
     "id": "paquete-constelacion",
@@ -357,7 +401,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 27000,
     "image": "/images/paquete-constelacion.png",
-    "categoria": "paquetes"
+    "categoria": "paquetes",
+    "genero": "mujer"
   },
   {
     "id": "paquete-coral",
@@ -365,7 +410,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 27000,
     "image": "/images/paquete-coral.png",
-    "categoria": "paquetes"
+    "categoria": "paquetes",
+    "genero": "mujer"
   },
   {
     "id": "paquete-pasion",
@@ -373,7 +419,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 27000,
     "image": "/images/paquete-pasion.png",
-    "categoria": "paquetes"
+    "categoria": "paquetes",
+    "genero": "mujer"
   },
   {
     "id": "paquete-angular",
@@ -381,7 +428,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 27000,
     "image": "/images/paquete-angular.png",
-    "categoria": "paquetes"
+    "categoria": "paquetes",
+    "genero": "mujer"
   },
   {
     "id": "seleccion-romance",
@@ -389,7 +437,8 @@
     "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 30000,
     "image": "/images/seleccion-romance.png",
-    "categoria": "selecciones"
+    "categoria": "selecciones",
+    "genero": "mujer"
   },
   {
     "id": "seleccion-pureza",
@@ -397,7 +446,8 @@
     "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 30000,
     "image": "/images/seleccion-pureza.png",
-    "categoria": "selecciones"
+    "categoria": "selecciones",
+    "genero": "mujer"
   },
   {
     "id": "seleccion-frutos",
@@ -405,7 +455,8 @@
     "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 30000,
     "image": "/images/seleccion-frutos.png",
-    "categoria": "selecciones"
+    "categoria": "selecciones",
+    "genero": "mujer"
   },
   {
     "id": "seleccion-platonico",
@@ -413,7 +464,8 @@
     "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 30000,
     "image": "/images/seleccion-platonico.png",
-    "categoria": "selecciones"
+    "categoria": "selecciones",
+    "genero": "mujer"
   },
   {
     "id": "seleccion-teddys",
@@ -421,7 +473,8 @@
     "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 30000,
     "image": "/images/seleccion-teddys.png",
-    "categoria": "selecciones"
+    "categoria": "selecciones",
+    "genero": "mujer"
   },
   {
     "id": "seleccion-guadalupe",
@@ -429,7 +482,8 @@
     "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 30000,
     "image": "/images/seleccion-guadalupe.png",
-    "categoria": "selecciones"
+    "categoria": "selecciones",
+    "genero": "mujer"
   },
   {
     "id": "seleccion-lazos-plateados",
@@ -437,7 +491,8 @@
     "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 30000,
     "image": "/images/seleccion-lazos-plateados.png",
-    "categoria": "selecciones"
+    "categoria": "selecciones",
+    "genero": "mujer"
   },
   {
     "id": "seleccion-lazos-dorados",
@@ -445,7 +500,8 @@
     "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 30000,
     "image": "/images/seleccion-lazos-dorados.png",
-    "categoria": "selecciones"
+    "categoria": "selecciones",
+    "genero": "mujer"
   },
   {
     "id": "seleccion-risos-de-oro",
@@ -453,7 +509,8 @@
     "descripcion": "Elaborado con acero inoxidable, granate y cuarzo laminado en rodio. Siete meses de garantía.",
     "price": 30000,
     "image": "/images/seleccion-risos-de-oro.png",
-    "categoria": "selecciones"
+    "categoria": "selecciones",
+    "genero": "mujer"
   },
   {
     "id": "aretes-esfera",
@@ -461,7 +518,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-esfera.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-corona",
@@ -469,7 +527,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-corona.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-osito",
@@ -477,7 +536,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-osito.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-incrustaciones",
@@ -485,7 +545,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-incrustaciones.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-pina",
@@ -493,7 +554,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-pina.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-mono",
@@ -501,7 +563,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-mono.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-de-corazon",
@@ -509,7 +572,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-de-corazon.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "candongas-de-aro",
@@ -517,7 +581,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/candongas-de-aro.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-de-mariquita",
@@ -525,7 +590,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-de-mariquita.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-de-delfin",
@@ -533,7 +599,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-de-delfin.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "candongas-de-puntos",
@@ -541,7 +608,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/candongas-de-puntos.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-de-angel",
@@ -549,7 +617,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-de-angel.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-de-ramo",
@@ -557,7 +626,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-de-ramo.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "candongas-de-patron",
@@ -565,7 +635,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/candongas-de-patron.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "candongas-plateadas",
@@ -573,7 +644,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/candongas-plateadas.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-corazon-llano",
@@ -581,7 +653,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-corazon-llano.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "candongas-de-flor",
@@ -589,7 +662,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/candongas-de-flor.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-de-estrella",
@@ -597,7 +671,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-de-estrella.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-de-mariposa",
@@ -605,7 +680,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-de-mariposa.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "aretes-de-mono-fino",
@@ -613,7 +689,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 12000,
     "image": "/images/aretes-de-mono-fino.png",
-    "categoria": "aretes"
+    "categoria": "aretes",
+    "genero": "mujer"
   },
   {
     "id": "coleccion-osos-y-picas",
@@ -621,7 +698,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 20000,
     "image": "/images/coleccion-osos-y-picas.png",
-    "categoria": "colecciones"
+    "categoria": "colecciones",
+    "genero": "mujer"
   },
   {
     "id": "coleccion-aros",
@@ -629,7 +707,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 20000,
     "image": "/images/coleccion-aros.png",
-    "categoria": "colecciones"
+    "categoria": "colecciones",
+    "genero": "mujer"
   },
   {
     "id": "coleccion-mas-por-menos",
@@ -637,7 +716,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 22000,
     "image": "/images/coleccion-mas-por-menos.png",
-    "categoria": "colecciones"
+    "categoria": "colecciones",
+    "genero": "mujer"
   },
   {
     "id": "coleccion-lenceria",
@@ -645,7 +725,8 @@
     "descripcion": "Elaborado con Goldfield y cuarzo. Seis meses de garantía.",
     "price": 24000,
     "image": "/images/coleccion-lenceria.png",
-    "categoria": "colecciones"
+    "categoria": "colecciones",
+    "genero": "mujer"
   },
   {
     "id": "cadena-hombre-plateada",
@@ -653,7 +734,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 22000,
     "image": "/images/cadena-hombre-plateada.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "hombre"
   },
   {
     "id": "cadena-hombre-dorada",
@@ -661,7 +743,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 22000,
     "image": "/images/cadena-hombre-dorada.png",
-    "categoria": "cadenas"
+    "categoria": "cadenas",
+    "genero": "hombre"
   },
   {
     "id": "brazalete-solo-verde",
@@ -669,7 +752,8 @@
     "descripcion": "Elaborado con acero inoxidable y cuarzo. Seis meses de garantía.",
     "price": 18000,
     "image": "/images/brazalete-solo-verde.png",
-    "categoria": "brazaletes"
+    "categoria": "brazaletes",
+    "genero": "hombre"
   },
   {
     "id": "anillos-gemelos",
@@ -677,7 +761,8 @@
     "descripcion": "Elaborado con aluminio laminado. Seis meses de garantía graduable.",
     "price": 12000,
     "image": "/images/anillos-gemelos.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "hombre"
   },
   {
     "id": "anillo-canal",
@@ -685,7 +770,8 @@
     "descripcion": "Elaborado con aluminio laminado. Seis meses de garantía graduable.",
     "price": 15000,
     "image": "/images/anillo-canal.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "hombre"
   },
   {
     "id": "anillo-viacrucis",
@@ -693,7 +779,8 @@
     "descripcion": "Elaborado con aluminio laminado. Seis meses de garantía graduable.",
     "price": 15000,
     "image": "/images/anillo-viacrucis.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "hombre"
   },
   {
     "id": "anillo-infinito",
@@ -701,7 +788,8 @@
     "descripcion": "Elaborado con aluminio laminado. Seis meses de garantía graduable.",
     "price": 15000,
     "image": "/images/anillo-infinito.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "hombre"
   },
   {
     "id": "anillo-gravado",
@@ -709,6 +797,7 @@
     "descripcion": "Elaborado con aluminio laminado. Seis meses de garantía graduable.",
     "price": 15000,
     "image": "/images/anillo-gravado.png",
-    "categoria": "anillos"
+    "categoria": "anillos",
+    "genero": "hombre"
   }
 ]
