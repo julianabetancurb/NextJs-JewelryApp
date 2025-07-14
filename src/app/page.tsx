@@ -1,3 +1,4 @@
+// src/app/page.tsx
 "use client";
 
 import { useState, useEffect } from "react";
@@ -7,7 +8,9 @@ import { useSearchParams } from "next/navigation";
 import rawProducts from "@/data/products.json";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Carousel from "@/components/ui/carousel";   // ← Ruta y nombre exactos
 
+// Extiende la interfaz para incluir 'genero'
 interface Product {
   id: string;
   name: string;
@@ -20,6 +23,23 @@ interface Product {
 
 const products = rawProducts as Product[];
 
+// Define aquí las imágenes de tu carrusel
+const slides = [
+  { src: "/images/c3.jpg", alt: "promo" },
+  { src: "/images/c4.jpeg", alt: "promo" },
+  { src: "/images/c5.jpeg", alt: "promo" },
+  { src: "/images/c6.jpeg", alt: "promo" },
+  { src: "/images/c7.jpeg", alt: "promo" },
+  { src: "/images/c8.jpeg", alt: "promo" },
+  { src: "/images/c9.jpeg", alt: "promo" },
+  { src: "/images/c10.jpeg", alt: "promo" },
+  { src: "/images/c11.jpeg", alt: "promo" },
+  { src: "/images/c12.jpeg", alt: "promo" },
+  { src: "/images/c13.jpeg", alt: "promo" },
+  { src: "/images/c14.jpeg", alt: "promo" },
+  { src: "/images/c15.jpeg", alt: "promo" },
+];
+
 export default function HomePage() {
   const searchParams = useSearchParams();
   const categoriaParam = searchParams.get("categoria") || "";
@@ -28,23 +48,32 @@ export default function HomePage() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 8;
 
+  // Filtrado combinado: categoría + género
   const filtered = products
     .filter((p) => (categoriaParam ? p.categoria === categoriaParam : true))
     .filter((p) => (generoParam ? p.genero === generoParam : true));
 
+  // Paginación
   const totalPages = Math.ceil(filtered.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const currentProducts = filtered.slice(startIndex, startIndex + itemsPerPage);
 
+  // Reset de página al cambiar filtros
   useEffect(() => {
     setCurrentPage(1);
   }, [categoriaParam, generoParam]);
 
   return (
-    <main className="py-12 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <main className="bg-gray-50">
+      {/* Carrusel */}
+      <Carousel slides={slides} interval={4000} />
+
+      <div className="container mx-auto px-4 py-12">
+        {/* Título y subtítulo */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-light text-gray-900 mb-2">Nuestra Colección</h1>
+          <h1 className="text-4xl font-light text-gray-900 mb-2">
+            Nuestra Colección
+          </h1>
           <p className="text-gray-700 text-lg">
             {categoriaParam && generoParam
               ? `Mostrando categoría: ${categoriaParam}, género: ${generoParam}`
@@ -56,6 +85,7 @@ export default function HomePage() {
           </p>
         </div>
 
+        {/* Grid de productos */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {currentProducts.map((item) => (
             <Card
@@ -86,6 +116,7 @@ export default function HomePage() {
           ))}
         </div>
 
+        {/* Paginación */}
         <nav aria-label="Paginación" className="mt-8">
           <div className="flex items-center justify-center space-x-2 mb-2">
             <button

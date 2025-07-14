@@ -145,7 +145,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     }}
                     className="hover:text-[#E6D7B6] flex items-center focus:outline-none"
                   >
-                    Contacto
+                    Ayuda
                     <ChevronDown className="w-4 h-4 ml-1" />
                   </button>
                   {showContactLink && (
