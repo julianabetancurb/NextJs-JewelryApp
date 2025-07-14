@@ -1,4 +1,3 @@
-// src/components/ui/carousel.tsx
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
@@ -11,14 +10,13 @@ interface Slide {
 
 interface CarouselProps {
   slides: Slide[];
-  interval?: number; // ms
+  interval?: number; 
 }
 
 export default function Carousel({ slides, interval = 5000 }: CarouselProps) {
   const [current, setCurrent] = useState(0);
   const last = slides.length - 1;
 
-  // Auto‐advance
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrent((prev) => (prev === last ? 0 : prev + 1));
@@ -30,25 +28,37 @@ export default function Carousel({ slides, interval = 5000 }: CarouselProps) {
   const goNext = () => setCurrent((c) => (c === last ? 0 : c + 1));
 
   return (
-    <div className="relative w-full overflow-hidden bg-white">
-      {/* Slides */}
+    <div className="relative w-full overflow-hidden">
       <div
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
         {slides.map(({ src, alt }, idx) => (
-          <div key={idx} className="flex-none w-full relative h-64 sm:h-96 bg-white">
-            <Image
-              src={src}
-              alt={alt ?? `slide-${idx}`}
-              fill
-              className="object-contain"
-            />
+          <div
+            key={idx}
+            className="flex-none w-full relative h-64 sm:h-96 flex items-center justify-center"
+          >
+            <div className="absolute inset-0">
+              <Image
+                src={src}
+                alt={alt ?? `slide-${idx}`}
+                fill
+                className="object-cover filter blur-lg scale-110"
+              />
+            </div>
+
+            <div className="relative w-full h-full">
+              <Image
+                src={src}
+                alt={alt ?? `slide-${idx}`}
+                fill
+                className="object-contain"
+              />
+            </div>
           </div>
         ))}
       </div>
 
-      {/* Prev / Next */}
       <button
         onClick={goPrev}
         className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white bg-opacity-50 p-2 rounded-full hover:bg-opacity-75"
@@ -62,7 +72,6 @@ export default function Carousel({ slides, interval = 5000 }: CarouselProps) {
         <ChevronRight className="w-6 h-6 text-black" />
       </button>
 
-      {/* Indicators */}
       <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
         {slides.map((_, idx) => (
           <button
